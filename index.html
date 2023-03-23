@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">Front End Bootcamp</a>
 
@@ -179,6 +179,57 @@
                 </div>
                 <div class="col-md">
                     <img src="react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion-->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Where are you located?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" 
+                        data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            What do I need to Know?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            How much does it cost to attend?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
